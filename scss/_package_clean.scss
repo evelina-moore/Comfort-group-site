@@ -1,0 +1,295 @@
+/* Пакет прибирання на місяць */
+.package-clean-container {
+  background: #f4f4f8;
+  width: 100%;
+  padding-bottom: 68px;
+}
+.package-column {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  border-radius: 30px;
+  background: #ebe7f3;
+  width: 85%;
+  padding-bottom: 88px;
+}
+.package-month h3 {
+  margin-top: 88px;
+  /* margin-left: 60px;
+  margin-right: 90px; */
+  color: #1b1b1b;
+  width: 500px;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+}
+.package-month ul {
+  margin: 32px 0;
+  padding: 0;
+}
+.comfort-list ul li,
+.package-month ul li {
+  position: relative;
+  padding-left: 20px;
+  color: #1b1b1b;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.package-month ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 11px;
+  height: 11px;
+  background-image: url(../img/ellipse-20.png);
+  margin-right: 12px;
+  margin-bottom: 8px;
+}
+.package-month-surprice {
+  display: flex;
+  align-items: center;
+}
+.package-month-surprice p {
+  margin: 0;
+  color: #4d1299;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  width: 430px;
+  gap: 12px;
+}
+.package-month-surprice img {
+  padding: 0;
+  margin-right: 12px;
+}
+/* -------------- */
+.package-price h3 {
+  margin: 100px 0 8px 0;
+  color: #4d1299;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 50px;
+  font-weight: 700;
+}
+.package-price p {
+  margin: 0;
+  width: 400px;
+  color: rgba(27, 27, 27, 0.6);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+}
+.package-button {
+  margin-top: 36px;
+  text-align: center;
+  width: 350px;
+  border-radius: 50px;
+  background: #4d1299;
+  padding: 18px 26px;
+}
+.package-button a {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+}
+.package-button a:hover,
+.package-button:hover {
+  background-color: #ff8427;
+  color: #1b1b1b;
+}
+/* ---------------- */
+.package-sale {
+  max-width: 1440px;
+  height: 311px;
+  width: 85%;
+  border-radius: 30px;
+  background: #4d1299;
+  display: flex;
+  margin: 48px auto;
+  align-items: center;
+  position: relative;
+}
+.package-sale img {
+  width: 25%;
+  position: absolute;
+  right: 110px;
+}
+.package-sale p {
+  color: #ebe7f3;
+  font-family: Montserrat;
+  font-size: 32px;
+  margin-left: 60px;
+  font-weight: 600;
+  width: 50%;
+}
+.package-sale p span {
+  border-radius: 50px;
+  background: #ff8427;
+  padding: 0 6px;
+}
+/* --------------- */
+.package-clean-container {
+  padding-top: 116px;
+  width: 100%;
+}
+.package-clean-container h2 {
+  color: #1b1b1b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.package-par {
+  color: #1b1b1b;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  width: 657px;
+  margin: 0 auto 48px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .package-clean-container {
+    padding-top: 72px;
+  }
+  .package-clean-container h2 {
+    font-size: 32px;
+  }
+  .package-clean-container p {
+    font-size: 16px;
+  }
+  .package-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 20px;
+  }
+  .package-month {
+    margin-left: 60px;
+  }
+  .package-month h3 {
+    font-size: 28px;
+    width: 450px;
+  }
+  .package-month-surprice p {
+    font-size: 16px;
+    width: 380px;
+  }
+  .package-month ul li {
+    font-size: 16px;
+  }
+  .package-sale {
+    width: 90%;
+    margin-top: 32px;
+    border-radius: 20px;
+  }
+  .package-sale p {
+    width: 360px;
+    font-size: 28px;
+  }
+  .package-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .package-price h3 {
+    margin: 54px 0 8px 0;
+  }
+  .package-price p {
+    width: 345px;
+    font-size: 16px;
+  }
+  .package-button {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+.package-sale img {
+    width: 40%;
+    position: absolute;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+.package-clean-container h2 {
+    font-size: 24px;
+  }
+  .package-clean-container p {
+    width: 335px;
+  }
+
+  .package-sale {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .package-sale p {
+    left: 24px;
+    top: 32px;
+    width: 286px;
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+  }
+  .package-sale img {
+    width: 45%;
+    position: absolute;
+    bottom: 30px;
+    right: 85px;
+  }
+  .package-month {
+    margin: 0 auto;
+  }
+
+  .package-month h3 {
+    margin-top: 32px;
+    font-size: 20px;
+    width: 287px;
+  }
+  .package-month-surprice p {
+    font-size: 16px;
+    width: 225px;
+  }
+  .package-price h3 {
+    font-size: 36px;
+    margin: 40px 0 0 0;
+  }
+  .package-price p {
+    width: 287px;
+  }
+  .package-button {
+    width: 248px;
+    margin-top: 24px;
+  }
+  .package-button a {
+    padding: 16px 26px;
+    font-size: 16px;
+  }
+  .package-clean-container {
+    padding-top: 64px;
+  }
+  .package-month ul {
+    margin: 16px 0;
+    padding: 0;
+  }
+  .package-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+}

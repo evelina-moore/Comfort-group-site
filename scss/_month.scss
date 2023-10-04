@@ -1,0 +1,179 @@
+.month-buy {
+  background: #f4f4f8;
+  padding: 0 0 164px;
+}
+.month-container {
+  max-width: 1440px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  width: 85%;
+  border-radius: 30px;
+  background: #4d1299;
+  padding: 60px 0;
+}
+.month-container h3 {
+  color: #ebe7f3;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 36px;
+}
+.month-descripton {
+  width: 737px;
+  color: #ebe7f3;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+.month-descripton span {
+  border-radius: 50px;
+  background: #ff8427;
+  padding: 0 6px;
+}
+.month-descripton2 {
+  width: 400px;
+  color: rgba(235, 231, 243, 0.8);
+  text-align: center;
+  color: rgba(235, 231, 243, 0.8);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+.month-button {
+  display: flex;
+  justify-content: center;
+  margin: 36px 0;
+}
+.month-button a {
+  color: #4d1299;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  background: #f4f4f8;
+  width: 391px;
+  padding: 18px 26px;
+}
+.month-button a:hover {
+  background: #ff8427;
+  color: #1b1b1b;
+}
+.month-container::before {
+  content: "";
+  width: 346px;
+  height: 482px;
+  background-image: url(../img/boy.png);
+  position: absolute;
+  bottom: -61px;
+  right: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 10;
+}
+.month-container::after {
+  content: "";
+  width: 346px;
+  height: 482px;
+  background-image: url(../img/girl.png);
+  position: absolute;
+  top: -11%;
+  left: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1200px) {
+.month-buy {
+    padding: 60px 0;
+  }
+  .month-descripton {
+    font-size: 28px;
+    width: 510px;
+  }
+  .month-descripton2 {
+    width: 345px;
+    font-size: 16px;
+  }
+  .month-container h3 {
+    font-size: 36px;
+    margin-top: 56px;
+  }
+  .month-button a {
+    font-size: 16px;
+  }
+  .month-button {
+    margin: 36px 0 0;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+.month-container::before {
+    width: 239px;
+    top: 93px;
+    right: -2px;
+  }
+  .month-container::after {
+    width: 226px;
+    left: -5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+.month-container {
+    width: 90%;
+  }
+  .month-container::before {
+    top: 158px;
+  }
+  .month-container::after {
+    width: 226px;
+    left: -5px;
+        top: 20px;
+}
+}
+
+@media screen and (max-width: 660px) {
+.month-container {
+    padding: 32px 0;
+  }
+  .month-container h3 {
+    font-size: 36px;
+    margin-top: 48px;
+  }
+  .month-container::before {
+    width: 90px;
+    background-image: url(../img/bucket.png);
+    top: 35%;
+    right: -5px;
+  }
+  .month-container::after {
+    display: none;
+  }
+  .month-descripton {
+    font-size: 20px;
+    width: 303px;
+  }
+  .month-descripton2 {
+    width: 287px;
+    font-size: 16px;
+    color: rgba(235, 231, 243, 0.6);
+    margin-bottom: 24px;
+  }
+  .month-buy {
+    padding: 0 0 64px;
+  }
+  .month-button {
+    margin: 0 auto;
+    width: 303px;
+  }
+  .month-button a {
+    padding: 16px 26px;
+  }
+}

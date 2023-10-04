@@ -1,0 +1,144 @@
+.header {
+  width: 100%;
+  padding: 20px 0;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 15px 20px 0px rgba(33, 33, 51, 0.03);
+}
+
+/* Logo */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  width: 54px;
+  height: 68px;
+}
+
+.header .social svg:hover {
+  transform: scale(1.2);
+}
+
+.switch {
+  border: 2px solid #4d1299;
+  border-radius: 50px;
+  padding: 3px;
+  width: fit-content;
+  display: flex;
+  justify-content: space-around;
+}
+
+.switch a {
+  color: #1b1b1b;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 5px 14px;
+  text-align: center;
+  margin: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.switch a:hover,
+.switch .active {
+  color: #fff;
+  border-radius: 25px;
+  background: #4d1299;
+}
+
+.menus a {
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  margin: 0 25px;
+}
+
+.menus a:hover {
+  color: #ff8427;
+}
+
+.tel {
+  border-radius: 50px;
+  border: 2px solid #4d1299;
+  padding: 18px 26px;
+  text-align: center;
+  width: fit-content;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.tel:hover {
+  border: 2px solid #ff8427;
+}
+
+.tel a {
+  color: #4d1299;
+}
+
+.tel a:hover {
+  color: #1b1b1b;
+}
+
+.menu-burger svg line {
+  transition: stroke 0.3s;
+}
+
+.menu-burger svg:hover line {
+  stroke: #ff8427;
+}
+
+@media screen and (max-width: 1080px) {
+  .menus {
+    display: none;
+  }
+  .header .social img {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menus {
+    display: none;
+  }
+
+  #menu-desktop {
+    width: 60%;
+    right: -60%;
+  }
+
+  #menu-desktop.opened {
+    right: 0;
+  }
+
+  #btn-close-menu {
+    right: 5%;
+  }
+  .container {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .tel {
+    display: none;
+  }
+  .social {
+    display: none;
+  }
+  
+}

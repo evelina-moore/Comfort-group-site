@@ -1,0 +1,173 @@
+/* Чому нам довіряють */
+.trust {
+  width: 100%;
+  padding-top: 116px;
+  padding-bottom: 164px;
+  background: #f4f4f8;
+}
+.trust-container {
+  max-width: 1440px;
+  padding: 116px 0;
+  margin: 0 auto;
+  width: 85%;
+  border-radius: 30px;
+  background: #ebe7f3;
+  position: relative;
+  overflow: hidden;
+}
+/* Зображення по бокам */
+.trust-container::before {
+  content: "";
+  width: 15%;
+  height: 15%;
+  background-image: url(../img/group2/sponge.png);
+  position: absolute;
+  top: 41%;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 10;
+}
+.trust-container::after {
+  content: "";
+  width: 15%;
+  height: 15%;
+  background-image: url(../img/group2/hand-brush.png);
+  position: absolute;
+  top: 74%;
+  left: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 30;
+}
+.z-index-20 {
+  z-index: 20;
+}
+.trust-container h2 {
+  color: #1b1b1b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 64px;
+}
+.trust-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.trust-list {
+  margin-bottom: 40px;
+  border-radius: 30px;
+  background: #f4f4f8;
+  padding: 40px;
+}
+.trust-list h3 {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  width: 420px;
+}
+.trust-list .description {
+  max-width: 421px;
+}
+.trust-button {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+}
+.trust-button a:hover {
+  background-color: #ff8427;
+  color: #1b1b1b;
+}
+.trust-button a {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  background: #4d1299;
+  padding: 18px 26px;
+}
+
+@media screen and (max-width: 1200px) {
+    .trust {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+  .trust-container {
+    padding: 72px 0;
+    width: 90%;
+  }
+  .trust-container h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+    .trust-container::after {
+    top: 76%;
+  }
+  .trust-list {
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 32px 24px;
+  }
+  .trust-list h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    width: 252px;
+  }
+  .trust-list .description {
+    font-size: 16px;
+    width: 252px;
+  }
+  .trust-list .number {
+    font-size: 24px;
+    margin: 0 0 24px;
+  }
+  .trust-button a {
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 16px 24px;
+  }
+  .trust-container::after {
+    top: 78%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+    .trust {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .trust-container h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .trust-container {
+    padding: 64px 0;
+  }
+  .trust-button {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0 0 0;
+  }
+  .trust-container::before {
+    width: 110.23px;
+    height: 110.23px;
+    background-image: url(../img/group2/sponge.png);
+    top: 45%;
+    right: -10px;
+  }
+  .trust-container::after {
+    width: 110.23px;
+    height: 110.23px;
+    background-image: url(../img/group2/hand-brush.png);
+    top: 87%;
+    left: -10px;
+  }
+}

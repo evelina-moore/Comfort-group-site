@@ -1,0 +1,211 @@
+/* Відгуки */
+.feedback {
+  max-width: 1160px;
+  width: 100%;
+  padding-top: 116px;
+  padding-bottom: 116px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.feedback h2 {
+  color: #1b1b1b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.feedback-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 64px 0 60px;
+}
+
+.list {
+  width: 312px;
+  border-radius: 30px;
+  background: #f4f4f8;
+  padding: 28px 24px;
+  margin-bottom: 40px;
+}
+
+#card4 {
+margin-top: -95px;
+}
+
+#card6 {
+margin-top: -70px;
+}
+
+.list h3 {
+  margin-bottom: 8px;
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.list p {
+  color: #1b1b1b;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 312px;
+  margin: 16px 0 0 0;
+}
+
+.feedback-buttons {
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-google {
+  border-radius: 50px;
+  background: #4d1299;
+  padding: 18px 26px;
+  color: #fff;
+  margin-right: 16px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.feedback-google:hover {
+  background-color: #ff8427;
+  color: #1b1b1b;
+}
+
+.feedback-facebook {
+  border-radius: 50px;
+  border: 2px solid #4d1299;
+  padding: 18px 26px;
+  color: #4d1299;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.feedback-facebook:hover {
+  color: #1b1b1b;
+  border: 2px solid #ff8427;
+}
+
+@media screen and (max-width: 1200px) {
+  .feedback h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+   .list {
+    width: 282px;
+  }
+  .feedback {
+    max-width: 690px;
+  }
+  #card3 {
+    margin-top: -95px;
+  }
+  #card4 {
+    margin-top: -9px;
+  }
+  #card5 {
+    margin-top: -72px;
+  }
+  #card6 {
+    margin-top: -9px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .feedback {
+    width: 100%;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+  .list h3 {
+    font-size: 20px;
+  }
+
+  .list p {
+    font-size: 16px;
+  }
+
+  .list img {
+    width: 100px;
+  }
+
+  .feedback-facebook,
+  .feedback-google {
+    font-size: 16px;
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+.feedback-buttons {
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 680px) {
+.feedback-list {
+    margin: 40px 0 0;
+}
+  .feedback {
+    max-width: 335px;
+  }
+  #card3,
+  #card4,
+  #card5,
+  #card6 {
+    margin-top: 0;
+  }
+.feedback-buttons {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .feedback-facebook {
+    margin: 0;
+    width: 277px;
+    font-size: 16px;
+    display: inline-flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  .feedback-google {
+    width: 277px;
+    margin: 0 0 16px 0;
+    font-size: 16px;
+    display: inline-flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 660px) {
+
+  .feedback h2 {
+    font-size: 24px;
+  }
+  .feedback {
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+}

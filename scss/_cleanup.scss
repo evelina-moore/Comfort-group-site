@@ -1,0 +1,135 @@
+/* Що входить в прибирання */
+.cleanup-container {
+  max-width: 1440px;
+  padding-top: 116px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.cleanup-container h2 {
+  color: #1b1b1b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.cleanup-column {
+  display: flex;
+  justify-content: center;
+  margin: 64px auto 154px;
+  width: 90%;
+}
+
+.cleanup-column h3 {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.subscribe {
+  max-width: 560px;
+  padding: 40px;
+  border-radius: 30px;
+  background: #f4f4f8;
+  margin-right: 40px;
+}
+
+.support-clean {
+  max-width: 560px;
+  padding: 40px;
+  border-radius: 30px;
+  background: #f4f4f8;
+}
+
+.rem {
+  color: rgba(27, 27, 27, 0.6);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 78px 0 0 0;
+}
+
+.number {
+  color: #4d1299;
+  font-family: Open Sans;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 24px;
+}
+
+.description {
+  color: #1b1b1b;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 480px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .cleanup-container {
+    padding-top: 72px;
+  }
+
+  .cleanup-container h2 {
+    font-size: 32px;
+  }
+
+  .cleanup-column h3 {
+    font-size: 20px;
+  }
+
+  .subscribe {
+    border-radius: 20px;
+    margin-right: 30px;
+    padding: 24px;
+  }
+
+  .support-clean {
+    border-radius: 20px;
+    padding: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+    color: #1b1b1b;
+  }
+}
+
+@media screen and (max-width: 768px) {
+.cleanup-column {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .number {
+    font-size: 24px;
+  }
+  .cleanup-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto 48px;
+    width: 90%;
+  }
+  .subscribe {
+    border-radius: 20px;
+    margin-right: 0;
+    margin-bottom: 24px;
+    padding: 24px;
+  }
+
+  .cleanup-container {
+    padding-top: 64px;
+  }
+
+  .cleanup-container h2 {
+    margin: 0 auto;
+    font-size: 24px;
+    width: 335px;
+  }
+}

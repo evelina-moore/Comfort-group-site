@@ -1,0 +1,33 @@
+@import './font';
+@import './header';
+@import './menu';
+@import './footer';
+@import './hero';
+@import './slider';
+@import './cleanup';
+@import './feedback';
+@import './trust';
+@import './package_clean';
+@import './comfort';
+@import './accordion';
+@import './contacts';
+@import './month';
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #1b1b1b;
+}
+
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
